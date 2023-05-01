@@ -1,0 +1,18 @@
+{
+	"schema_version": "v1",
+	"name_for_human": "Shell Plugin",
+	"name_for_model": "shell",
+	"description_for_human": "Execute shell or batch commands on your device.",
+	"description_for_model": "Plugin for executing shell/batch commands on the prompter's device",
+	"auth": {
+		"type": "none"
+	},
+	"api": {
+		"type": "openapi",
+		"url": "http://localhost:3333/openapi.yaml",
+		"is_user_authenticated": false
+	},
+	"logo_url": "http://localhost:3333/logo.png",
+	"contact_email": "michael.magahey@gmail.com",
+	"legal_info_url": ""
+}
